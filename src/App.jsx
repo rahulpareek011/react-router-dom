@@ -7,7 +7,7 @@ import Contact from './contact'
 import NotFound from './notfound'
 import Home from './Home'
 import Fetch from './Fetch'
-import Nav from './nav'
+import Nav from './Nav'
 
 
 function App() {

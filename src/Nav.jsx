@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
     let styles = {
         display: "flex",
-        gap: "12px",
+        gap: "25px",
+        fontSize: "1.4rem",
         justifyContent: "center",
         position: "absolute",
-        top: "0"
+        top: "20px",
+        right: "20px"
     };
     return (
         <div>
