@@ -8,7 +8,9 @@ import NotFound from './notfound'
 import Home from './Home'
 import Fetch from './Fetch'
 import Nav from './Nav'
-
+import Login from './Login'
+import Signup from './Signup'
+import productId from './productId'
 
 function App() {
   return (
@@ -21,7 +23,10 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/footer' element={<Footer />} />
           <Route path='/fetch' element={<Fetch />} />
-          <Route path='*' element={<NotFound />} /> {/* ✅ 404 Route */}
+          <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<Signup />} />
+          <Route path='/product/:id' element={<productId/>} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter></>
   )
